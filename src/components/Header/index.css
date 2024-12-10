@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.header-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px 10px 40px;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  text-align: right;
+}
+.ham-burger {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.pop-up-con {
+  width: 90vw;
+  padding: 50px 0px 50px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.close-btn {
+  font-size: 30px;
+  align-self: flex-end;
+}
+.main-routes-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+.li-item {
+  margin-bottom: 10px;
+}
+.route {
+  text-decoration: none;
+  outline: none;
+}
+.icons {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.route-name {
+  font-family: 'Roboto';
+  font-size: 30px;
+}

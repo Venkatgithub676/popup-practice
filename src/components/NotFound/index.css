@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.not-found-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.not-found {
+  width: 30%;
+}
