@@ -1,1 +1,27 @@
 /* Write your CSS here */
+.about-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-about-img {
+  width: 60%;
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-about-img {
+    display: none;
+  }
+}
+.desktop-about-img {
+  width: 100%;
+  max-width: 1100px;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-about-img {
+    display: none;
+  }
+}

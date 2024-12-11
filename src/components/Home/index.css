@@ -1,1 +1,26 @@
 /* Write your CSS here */
+
+.home-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-home-img {
+  width: 70%;
+  max-width: 500px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-home-img {
+    display: none;
+  }
+}
+
+.desktop-home-img {
+  width: 60%;
+  max-width: 1100px;
+}
+@media screen and (max-width: 768px) {
+  .desktop-home-img {
+    display: none;
+  }
+}
